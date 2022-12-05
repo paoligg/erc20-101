@@ -7,7 +7,7 @@ import "./IAllInOneSolution.sol";
 
 contract Evaluator 
 {
-
+	/*
 	mapping(address => bool) public teachers;
 	ERC20TD TDERC20;
 
@@ -56,7 +56,7 @@ contract Evaluator
 		if (!exerciceProgression[msg.sender][1])
 		{
 			exerciceProgression[msg.sender][1] = true;
-			TDERC20.distributeTokens(msg.sender, 1);
+			//TDERC20.distributeTokens(msg.sender, 1);
 		}
 	}
 
@@ -83,7 +83,7 @@ contract Evaluator
 		{
 			exerciceProgression[msg.sender][2] = true;
 			// Creating ERC20
-			TDERC20.distributeTokens(msg.sender, 2);
+			//TDERC20.distributeTokens(msg.sender, 2);
 		}
 
 	}
@@ -109,7 +109,7 @@ contract Evaluator
 		{
 			exerciceProgression[msg.sender][3] = true;
 			// Distribute points
-			TDERC20.distributeTokens(msg.sender, 2);
+			//TDERC20.distributeTokens(msg.sender, 2);
 
 		}
 	}
@@ -124,7 +124,7 @@ contract Evaluator
 		{
 			exerciceProgression[msg.sender][4] = true;
 			// Distribute points
-			TDERC20.distributeTokens(msg.sender, 2);
+			//TDERC20.distributeTokens(msg.sender, 2);
 		}
 	}
 
@@ -153,7 +153,7 @@ contract Evaluator
 		{
 			exerciceProgression[msg.sender][5] = true;
 			// Distribute points
-			TDERC20.distributeTokens(msg.sender, 1);
+			//TDERC20.distributeTokens(msg.sender, 1);
 		}
 	}
 
@@ -175,7 +175,7 @@ contract Evaluator
 		{
 			exerciceProgression[msg.sender][6] = true;
 			// Distribute points
-			TDERC20.distributeTokens(msg.sender, 2);
+			//TDERC20.distributeTokens(msg.sender, 2);
 		}
 	}
 
@@ -206,7 +206,7 @@ contract Evaluator
 		{
 			exerciceProgression[msg.sender][7] = true;
 			// Distribute points
-			TDERC20.distributeTokens(msg.sender, 1);
+			//TDERC20.distributeTokens(msg.sender, 1);
 		}
 	}
 
@@ -231,7 +231,7 @@ contract Evaluator
 		{
 			exerciceProgression[msg.sender][8] = true;
 			// Distribute points
-			TDERC20.distributeTokens(msg.sender, 2);
+			//TDERC20.distributeTokens(msg.sender, 2);
 		}
 	}
 
@@ -260,7 +260,7 @@ contract Evaluator
 		{
 			exerciceProgression[msg.sender][9] = true;
 			// Distribute points
-			TDERC20.distributeTokens(msg.sender, 2);
+			//TDERC20.distributeTokens(msg.sender, 2);
 		}
 	}
 
@@ -284,7 +284,7 @@ contract Evaluator
 		{
 			exerciceProgression[msg.sender][10] = true;
 			// Distribute points
-			TDERC20.distributeTokens(msg.sender, 2);
+			//TDERC20.distributeTokens(msg.sender, 2);
 		}
 
 	}
@@ -292,7 +292,7 @@ contract Evaluator
 
 	/* Internal functions and modifiers */ 
 
-
+	/*
 	modifier onlyTeachers() 
 	{
 
@@ -313,11 +313,11 @@ contract Evaluator
 		{
 			exerciceProgression[msg.sender][0] = true;
 			// Setup points
-			TDERC20.distributeTokens(msg.sender, 2);
+			//TDERC20.distributeTokens(msg.sender, 2);
 			// Creating contract points
-			TDERC20.distributeTokens(msg.sender, 2);
+			//TDERC20.distributeTokens(msg.sender, 2);
 			// Deploying contract points
-			TDERC20.distributeTokens(msg.sender, 1);
+			//TDERC20.distributeTokens(msg.sender, 1);
 		}
 			
 	}
@@ -410,6 +410,6 @@ contract Evaluator
 	}
 
 
-
+	*/
 
 }
